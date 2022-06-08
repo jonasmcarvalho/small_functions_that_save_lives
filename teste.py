@@ -103,6 +103,8 @@ data = [
     }
 ]
 
+data = 'ULTIMO agora'
+
 
 """ teste = data[9]['idade'].find('18')
 
@@ -112,12 +114,13 @@ print(teste) """
 for index, employee in enumerate(data):
 
     teste = employee['nome'].find('Jonas Carvalho 15')
+    print(teste)
 
     if teste == 0:
 
         print(employee)
     else:
-        print(teste)
+        print(teste, 'agora')
 
 """ data2 = ['teste', 'um', 'teste2', 'ola']
 
