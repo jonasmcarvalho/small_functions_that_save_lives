@@ -1,13 +1,13 @@
 import calendar
 
-""" calen = calendar.TextCalendar(calendar.SUNDAY).formatyear(2028)
+calen = calendar.TextCalendar(calendar.SUNDAY).formatyear(2028)
 
 print(calen)
 
 # calen.prmonth(2024, 7)
 
 for day in calendar.day_name:
-    print(day) """
+    print(day)
 
 
 data = [
